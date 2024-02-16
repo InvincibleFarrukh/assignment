@@ -1,0 +1,19 @@
+
+  <div class="col-12 p-0 flex">
+    <div class="col-6 p-0">
+      <img src="assets/login/cover.png" alt="login" width="100wh" height="100vh" class="img-fluid">
+    </div>
+    <div>
+      <form (ngSubmit)="onLogin(form)" #form="ngForm">
+
+        <div class="flex-column">
+
+        </div>
+          <input type="email" [(ngModel)]="email" name="email" required>
+          <input type="password" [(ngModel)]="password" name="password" required>
+          <button type="submit">Login</button>
+          <button (click)="gotoSignUp()">Sign Up </button>
+      </form>
+
+    </div>
+  </div>

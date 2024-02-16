@@ -1,0 +1,21 @@
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-input {
+    flex: 1;
+  }
+  
+  .toggle-button {
+    position: absolute;
+    right: 0;
+    margin-right: 10px; /* Adjust as necessary */
+    cursor: pointer;
+  }
+
+  .max-height{
+    height: 100vh;
+  }
+  
